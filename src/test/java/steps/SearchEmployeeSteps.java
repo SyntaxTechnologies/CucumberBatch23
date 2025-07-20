@@ -9,7 +9,7 @@ import utils.CommonMethods;
 
 public class SearchEmployeeSteps extends CommonMethods {
 
-    SearchEmployeePage searchEmployeePage = new SearchEmployeePage();
+   // SearchEmployeePage searchEmployeePage = new SearchEmployeePage();
 
     @When("user clicks on PIM option")
     public void user_clicks_on_pim_option() {

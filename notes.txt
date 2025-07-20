@@ -54,3 +54,6 @@ hooks executes one times
 
 page object model design pattern - it allows us to create classes as per the page of the app
 in page class, we keep all the locators belong to that page/screen
+
+Assert.asserttrue
+Assert.assertequals
