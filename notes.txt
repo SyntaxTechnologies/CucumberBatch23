@@ -1,0 +1,38 @@
+Class 1 - Cucumber Live -
+
+to get proper reporting, I need cucumber
+to reuse  the code and save time for scripting,
+execute code the piece of code, which we want.
+easily readable test cases in cucumber
+
+maven -
+pom.xml file - it is the backbone of our maven project
+src - under this, we have main and test folder
+main - where we write the code to develop the application
+test - where we write the code to test the application
+
+under test -
+java - for all java stuff
+resources - for all non java stuff
+
+----------------------------------------------------------------
+user story  - Login functionality
+
+user story - search employee
+
+Search employee by id
+Search employee by name
+
+rules of background -
+till the time flow is not broken in all the scenarios of one feature file,  we can keep steps under background
+background is applicable for only one feature file, it means for every feature file, background will be different
+background will be executed before every single scenario of that feature file
+
+
+hooks - we keep pre conditions and post conditions for the whole project for all scenarios in it
+hooks must be placed under steps package
+
+Order of execution
+hooks -> background -> scenario -> hooks
+
+
