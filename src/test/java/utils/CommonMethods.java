@@ -3,6 +3,7 @@ package utils;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.devtools.v85.page.Page;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
@@ -16,12 +17,12 @@ import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 
-public class CommonMethods {
+public class CommonMethods extends PageInitialiser {
 
     public static WebDriver driver;
 
     public void openBrowserAndLaunchApplication() {
-       // initializePageObjects();
+        initializePageObjects();
         switch (ConfigReader.read("browser")){
 
             case "Chrome":

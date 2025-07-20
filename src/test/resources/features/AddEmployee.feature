@@ -42,3 +42,9 @@ Feature: Add employee scenarios
         |nawab      |ms          |amin      |
         |zafar      |ms          |dana      |
         |latham     |ms          |izanica   |
+
+
+    @excel
+    Scenario: adding employees using excel
+      And user enters multiple employees using excel file
+
