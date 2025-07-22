@@ -13,11 +13,10 @@ import org.junit.runner.RunWith;
         //when we set the value of dry run to true, it stops execution and generate all missing step definition
         //when we have to execute, we set the value to false
         dryRun = false,
-        tags = "@khan",
+        tags = "@regression",
         //pretty plugin prints all the steps in console
-        plugin = {"pretty", "html:target/cucumber.html", "json:target/cucumber.json",
-        "rerun:target/failed.txt"}
+        plugin = {"pretty", "html:target/cucumber.html", "json:target/cucumber.json"}
 )
 
-public class TestRunner {
+public class RegressionRunner {
 }

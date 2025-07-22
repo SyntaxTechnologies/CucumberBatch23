@@ -57,3 +57,5 @@ in page class, we keep all the locators belong to that page/screen
 
 Assert.asserttrue
 Assert.assertequals
+
+artifacts - reports
