@@ -20,6 +20,10 @@ public class AddEmployeePage extends CommonMethods {
     @FindBy(id="btnSave")
     public WebElement saveButton;
 
+    @FindBy(xpath = "//input[@id='employeeId']")
+    public  WebElement empId;
+
+
 
     public AddEmployeePage(){
         PageFactory.initElements(driver,this);
