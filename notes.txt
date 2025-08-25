@@ -59,3 +59,17 @@ Assert.asserttrue
 Assert.assertequals
 
 artifacts - reports
+
+
+Rest assured -
+to automate API's, we need a tool, i.e rest assured
+
+given - pre-condition - preparing the request
+when - taking action - perform the action/hitting the endpoint
+then - expected result - verifying the results
+
+3 point formula -
+prepare the request - given
+send the request - when
+get/validate the response - then
+
